@@ -28,10 +28,10 @@ pip install fastapi uvicorn pydantic requests
 
 ## Setup
 
-1. Create a `.env` file from the example:
+1. Create a `.env` file from the example (nosecrets.envexample), or rename nosecrets.envexample to .env and edit:
 
    ```bash
-   cp .envexample .env
+   cp nosecrets.envexample .env
    ```
 
 2. Add your OpenRouter API key to `.env`:
